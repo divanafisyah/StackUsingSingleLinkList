@@ -16,6 +16,7 @@ namespace StackUsingSingleLinkList
             next = n;
         }
     }
+
     class Stack
     {
         node top;
@@ -54,6 +55,8 @@ namespace StackUsingSingleLinkList
                 for (tmp = top; tmp != null; tmp = tmp.next)
                 {
                     Console.WriteLine(tmp.info);
+
+
                 }
             }
         }
